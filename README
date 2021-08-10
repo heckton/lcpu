@@ -1,0 +1,20 @@
+lCPU
+=======
+
+ABOUT
+	lCPU was written to:
+		1. Give specific load on CPU
+		2. Show a simple example of working with POSIX threads
+
+INSTALLATION
+	git clone https://github.com/heckton/lcpu.git
+	make
+
+USAGE
+	Use N threads and M bytes of memory during T seconds:
+		./lcpu N T M
+	M are optional argument:
+		./lcpu N T
+
+CONTACT
+	heckton@yahoo.com
