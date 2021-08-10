@@ -6,6 +6,8 @@ ABOUT
 		1. Give specific load on CPU
 		2. Show a simple example of working with POSIX threads
 
+	It may be used for testing CPU temperature (see temptest.sh)
+
 INSTALLATION
 	git clone https://github.com/heckton/lcpu.git
 	make
