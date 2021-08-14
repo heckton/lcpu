@@ -18,5 +18,5 @@ $(NAME): main.c
 $(NAME_DEBUG): main.c
 	gcc -o $@ $^ $(CFLAGS_DEBUG)
 
-clear:
+clean:
 	rm -f $(NAME) $(NAME_DEBUG)
